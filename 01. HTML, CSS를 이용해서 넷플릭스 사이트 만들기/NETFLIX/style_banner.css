@@ -1,0 +1,46 @@
+.banner {
+  background-image: url('img/banner.jpg');
+  background-size: cover;
+  background-position: center;
+  color: white;
+  height: 448px;
+}
+
+.banner_contents {
+  margin-left: 30px;
+  padding-top: 190px;
+  height: 190px;
+}
+
+.banner_title {
+  font-size: 3rem;
+  font-weight: 800;
+  padding-bottom: 0.3rem;
+}
+
+.banner_btn {
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+.banner_btn button {
+  width: 100px;
+  height: 30px;
+  color: white;
+  border-radius: 2px;
+  border: 1px solid transparent;
+  background-color: rgba(0, 0, 0, 0.4);
+  font-weight: 700;
+}
+
+.banner_btn button:hover {
+  background-color: black;
+  cursor: pointer;
+}
+
+.banner_des {
+  line-height: 1.5;
+  padding-top: 0.5rem;
+  font-size: 1rem;
+  font-weight: 600;
+}
