@@ -1,0 +1,35 @@
+.movie_list_title {
+  color: white;
+}
+
+.movie_list_title h2 {
+  color: white;
+  margin-left: 25px;
+  margin-top: 20px;
+}
+
+.movie_poster_list {
+  display: flex;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  padding: 20px;
+}
+
+.movie_poster {
+  width: 100%;
+  object-fit: contain;
+  max-height: 100px;
+  margin-right: 10px;
+  transition: transform 450ms;
+}
+
+.large {
+  max-height: 250px;
+}
+.movie_poster:hover {
+  transform: scale(1.1);
+}
+
+.movie_poster_list::-webkit-scrollbar {
+  display: none;
+}
